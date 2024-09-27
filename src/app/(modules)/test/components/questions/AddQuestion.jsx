@@ -1,3 +1,4 @@
+/* eslint-disable lines-around-comment */
 // React Imports
 import { useState, useEffect } from 'react'
 
@@ -43,8 +44,11 @@ import QuestionUpload from './QuestionUpload'
 import TrueFalseQuestion from './TrueFalseQuestion'
 import EssaysQuestion from './EssaysQuestion'
 import QuestionSettings from './QuestionSettings'
-import FilterHeader from '@/Components/globals/FilterHeader'
-import { alertMessages } from '@/Components/globals/AlertMessages'
+// import FilterHeader from '../../../../../components/globals/FilterHeader'
+// import { alertMessages } from '../../../../../components/globals/AlertMessages'
+import FilterHeader from '@/components/globals/FilterHeader'
+import { alertMessages } from '@/components/globals/AlertMessages'
+
 import TextEditor from '@/components/globals/TextEditor'
 
 const AddQuestion = ({ guid, editQuestion, createQuestion, QId = false }) => {

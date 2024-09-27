@@ -23,7 +23,6 @@ import { Box, Dialog, DialogContent, DialogTitle } from '@mui/material'
 import CustomAvatar from '@core/components/mui/Avatar'
 
 // Styled Component Imports
-import Link from '@/Components/Link'
 import AppReactDropzone from '@/styles/AppReactDropzone'
 
 // Styled Dropzone Component
@@ -118,6 +117,7 @@ const QuestionUpload = () => {
   const handleClose = () => setUploadFile(false)
 
   return (
+    // eslint-disable-next-line lines-around-comment
     // <Dropzone>
     //   <div {...getRootProps({ className: 'dropzon' })}>
     //     <input {...getInputProps()} />

@@ -118,6 +118,7 @@ const TrueFalseQuestion = ({ choiceFields, setChoiceFields }) => {
                     size='small'
                     variant='outlined'
                     placeholder='True'
+                    // eslint-disable-next-line lines-around-comment
                     // value={truthyValue}
                     // onChange={e => setTruthyValue(e?.target?.value)}
                     value={field?.choice}

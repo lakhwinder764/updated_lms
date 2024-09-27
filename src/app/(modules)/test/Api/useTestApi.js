@@ -5,7 +5,9 @@ import axios from 'axios'
 import { useTheme } from '@mui/material/styles'
 
 import { USER_MODULE_ENDPOINTS } from '../Const/ApiEndpoints'
-import { alertMessages } from '@/Components/globals/AlertMessages'
+
+// import { alertMessages } from '../../../../components/globals/AlertMessages'
+import { alertMessages } from '@/components/globals/AlertMessages'
 
 export default function useTestApi() {
   const [data, setData] = useState([])

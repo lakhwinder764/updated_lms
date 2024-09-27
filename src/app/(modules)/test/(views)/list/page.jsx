@@ -4,8 +4,8 @@
 'use client'
 import { useSearchParams } from 'next/navigation'
 
-import useTestApi from '../../Api/useTestApi'
-import UserList from '../../components/list'
+// import useTestApi from '@modules/test/Api/useTestApi'
+// import UserList from '@modules/test/components/list'
 
 // Data Imports
 // import { getUserData, getNewUserData } from '@/app/server/actions'
@@ -30,16 +30,17 @@ import UserList from '../../components/list'
 const UserListApp = () => {
   // Vars
   // const data = await getUserData()
-  const { addTestData, updateTestData, deleteTestData, data, testData, viewTest } = useTestApi()
+  // const { addTestData, updateTestData, deleteTestData, data, testData, viewTest } = useTestApi()
 
-  return (
-    <UserList
-      userData={data}
-      addUsersData={addTestData}
-      updateUsersData={updateTestData}
-      deleteUserData={deleteTestData}
-    />
-  )
+  // return (
+  //   <UserList
+  //     userData={data}
+  //     addUsersData={addTestData}
+  //     updateUsersData={updateTestData}
+  //     deleteUserData={deleteTestData}
+  //   />
+  // )
+  return null
 }
 
 export default UserListApp

@@ -49,10 +49,12 @@ import CustomAvatar from '@core/components/mui/Avatar'
 
 // Style Imports
 import tableStyles from '@core/styles/table.module.css'
+import FilterHeader from '@/components/globals/FilterHeader'
+import useDraggableList from '@/components/globals/useDraggableList'
 
 // import AlertDialogBox from '@/Components/Common/AlertDialogBox'
-import FilterHeader from '@/Components/globals/FilterHeader'
-import useDraggableList from '@/Components/globals/useDraggableList'
+// import FilterHeader from '../../../../../components/globals/FilterHeader'
+// import useDraggableList from '../../../../../components/globals/useDraggableList'
 import AlertDialogBox from '@/components/globals/AlertDialogBox'
 import DialogBoxComponent from '@/components/globals/DialogBoxComponent'
 import { getInitials } from '@/utils/getInitials'
